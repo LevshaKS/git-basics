@@ -32,7 +32,8 @@ git status
 •	modified (англ. «изменённый») 
 Состояние modified значит, что Git сравнил содержимое файла с последней сохранённой версией и нашёл отличия. Например, файл был закоммичен и после этого изменён.
 
-``mermaid
+
+```mermaid
 graph LR;
   untracked -- "git add" --> staged;
   staged    -- "???"     --> tracked/comitted;
